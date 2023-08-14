@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Is At Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3023928900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify That User Can Find Out Their Age By Entering Their Details",
+        "description": "",
+        "id": "verifying-the-age-calculation-functionality;verify-that-user-can-find-out-their-age-by-entering-their-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 657431100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 156662300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Their \"Roopen\" Into The Name Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roopen",
+                  "offset": 19
+                }
+              ],
+              "location": "AgeSteps.userEntersTheirIntoTheNameTextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60922900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters Their \"25/11/1981\" Into The Date Of Birth Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25/11/1981",
+                  "offset": 19
+                }
+              ],
+              "location": "AgeSteps.userEntersTheirIntoTheDateOfBirthTextBox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53522200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks On Submit Button",
+            "match": {
+              "location": "AgeSteps.userClicksOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612268300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Can Verify The User \"Roopen\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roopen",
+                  "offset": 26
+                }
+              ],
+              "location": "AgeSteps.userCanVerifyTheUserMessage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34220800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Can Verify User \"41\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "41",
+                  "offset": 22
+                }
+              ],
+              "location": "AgeSteps.userCanVerifyUserMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User Is At Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2110692400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify That User Can Find Out Their Age By Entering Their Details",
+        "description": "",
+        "id": "verifying-the-age-calculation-functionality;verify-that-user-can-find-out-their-age-by-entering-their-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 631681500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69918500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters Their \"Abc\" Into The Name Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abc",
+                  "offset": 19
+                }
+              ],
+              "location": "AgeSteps.userEntersTheirIntoTheNameTextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49048300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters Their \"25/12/1981\" Into The Date Of Birth Text Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25/12/1981",
+                  "offset": 19
+                }
+              ],
+              "location": "AgeSteps.userEntersTheirIntoTheDateOfBirthTextBox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48588600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks On Submit Button",
+            "match": {
+              "location": "AgeSteps.userClicksOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594104800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Can Verify The User \"Abc\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abc",
+                  "offset": 26
+                }
+              ],
+              "location": "AgeSteps.userCanVerifyTheUserMessage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31655400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Can Verify User \"41\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "41",
+                  "offset": 22
+                }
+              ],
+              "location": "AgeSteps.userCanVerifyUserMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying The Age Calculation Functionality",
+    "description": "",
+    "id": "verifying-the-age-calculation-functionality",
+    "keyword": "Feature",
+    "uri": "FindAge.feature"
+  }
+]
